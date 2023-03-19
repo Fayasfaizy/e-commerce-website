@@ -39,6 +39,11 @@
     border-radius: 60px;
     font-weight: 700;
 }
+.btn0:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
 
 .main{
     background: url('./img/main\ section\ img.jpg')no-repeat;
@@ -60,4 +65,14 @@ h1{
 -moz-box-shadow: 16px 7px 40px 10px rgba(0,0,0,0.3);
 box-shadow: 16px 7px 40px 10px rgba(0,0,0,0.3);
 transition: 0.5s;
+}
+
+.picture{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./img/girl.jpg)no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.picture h1{
+    font-family: 'Lobster', cursive;
 }

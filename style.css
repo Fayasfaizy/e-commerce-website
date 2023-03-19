@@ -45,7 +45,7 @@
     transition: 0.5s;
 }
 
-.main{
+#main{
     background: url('./img/main\ section\ img.jpg')no-repeat;
     background-size: cover;
     height: 100vh;
@@ -67,16 +67,16 @@ box-shadow: 16px 7px 40px 10px rgba(0,0,0,0.3);
 transition: 0.5s;
 }
 
-.picture{
+#picture{
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./img/girl.jpg)no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
 }
-.picture h1{
+#picture h1{
     font-family: 'Lobster', cursive;
 }
-.news{
+#news{
     background-color: black;
     color: white;
 }
@@ -88,7 +88,7 @@ transition: 0.5s;
     border: 2px solid white;
     font-weight:600 ;
 }
-.news input{
+#news input{
     height: 45px;
     width: 55%;
     border: 2px solid white;
@@ -98,6 +98,6 @@ transition: 0.5s;
     margin-top: 20px;
     font-weight: 600;
 }
-.news::placeholder{
+#news::placeholder{
     color: white;
 }
